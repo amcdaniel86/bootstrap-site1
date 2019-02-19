@@ -1,0 +1,12 @@
+/* custom CSS here, most work done in Bootstrap classes in html, but for occasional styling, it goes here. */
+
+body {
+  background: #333;
+  color: #fff;
+}
+
+
+.navbar {
+  border-bottom: #008ed6 3px solid; /* border separates navbar from body */
+  opacity: 0.8;
+}
