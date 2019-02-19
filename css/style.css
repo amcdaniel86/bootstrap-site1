@@ -10,3 +10,45 @@ body {
   border-bottom: #008ed6 3px solid; /* border separates navbar from body */
   opacity: 0.8;
 }
+
+/* GREAT EXAMPLE of main background photo setup */
+#home-section {
+  background: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+/* EXAMPLE of dark overlay, for text to show better against bg */
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0; /* start at top lefthand corner */
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0,0,0,0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+/* STYLED FA ICONS */
+#home-section .fas, #create-section .fas { /* showcase */
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#explore-section .fas, #share-section .fas { /* explore & connect sxtn */
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
